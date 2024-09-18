@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # lub inna gałąź, na której pracujesz
+      - gh-pages  # lub inna gałąź, na której pracujesz
 permissions:
   contents: write
 jobs:
