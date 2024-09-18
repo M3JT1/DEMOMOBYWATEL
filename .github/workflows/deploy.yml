@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main  # lub inna gałąź, na której pracujesz
+permissions:
+  contents: write
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
